@@ -105,7 +105,24 @@ public class Main {
         System.out.println("Если спортсмен будет терять каждый день по " + dayLoss2 + " грамм, то " + daysLoss2 + " дней уйдет на похудение");
         System.out.println("В среднем может потребоваться " + everDay + " день, чтобы добиться результата");
 
-
-
+        System.out.println("-------");
+        System.out.println("Задача №8");
+        int currentPay1 = 67760;
+        int currentPay2 = 83690;
+        int currentPay3 = 76230;
+        System.out.println("Маша получает " + currentPay1 + " рублей в месяц");
+        System.out.println("Денис получает " + currentPay2 + " рублей в месяц");
+        System.out.println("Кристина получает " + currentPay3 + " рублей в месяц");
+        byte payUp = 10;
+        System.out.println("Зарплата увеличилась на " + payUp + "%");
+        int newPay1 = currentPay1 * (100 + payUp) / 100;
+        int newPay2 = currentPay2 * (100 + payUp) / 100;
+        int newPay3 = currentPay3 * (100 + payUp) / 100;
+        int yaerDif1 = newPay1 * 12 - currentPay1 * 12;
+        int yaerDif2 = newPay2 * 12 - currentPay2 * 12;
+        int yaerDif3 = newPay3 * 12 - currentPay3 * 12;
+        System.out.println("Маша теперь получает " + newPay1 + " рублей в месяц. Годовой доход вырос на " + yaerDif1 + " рублей");
+        System.out.println("Денис теперь получает " + newPay2 + " рублей в месяц. Годовой доход вырос на " + yaerDif2 + " рублей");
+        System.out.println("Кристина теперь получает " + newPay3 + " рублей в месяц. Годовой доход вырос на " + yaerDif1 + " рублей");
     }
 }
