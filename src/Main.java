@@ -43,5 +43,18 @@ public class Main {
         System.out.println("Закуплено на всех " + totalPaper + " листов бумаги");
         int studPaper = totalPaper / (studLp + studAs + studEa);
         System.out.println("На каждого ученика рассчитано " + studPaper + " листов бумаги");
+        System.out.println("-------");
+        System.out.println("Задача №4");
+        byte bottles = 16;
+        byte time = 2;
+        System.out.println("Производительность машины для изготовления бутылок - " + bottles + " бутылок за " + time + " минуты");
+        int time20 = bottles / time * 20;
+        int timeDay = bottles / time * 60 * 24;
+        int time3Day = bottles / time * 60 * 24 * 3;
+        int timeMonth = bottles / time * 60 * 24 * 30;
+        System.out.println("За 20 минут машина произвела " + time20 + " штук бутылок");
+        System.out.println("За сутки машина произвела " + timeDay + " штук бутылок");
+        System.out.println("За 3 дня машина произвела " + time3Day + " штук бутылок");
+        System.out.println("За месяц машина произвела " + timeMonth + " штук бутылок");
     }
 }
