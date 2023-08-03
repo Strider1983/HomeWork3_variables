@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Типы Переменных");
         System.out.println("-------");
-        System.out.println("Задача№1");
+        System.out.println("Задача №1");
         int apple = 102364;
         byte orange = 84;
         short pine = 17236;
@@ -16,7 +16,7 @@ public class Main {
         System.out.println("Значение переменной weight с типом float равно " + weight);
         System.out.println("Значение переменной height с типом double равно " + height);
         System.out.println("-------");
-        System.out.println("Задача№2");
+        System.out.println("Задача №2");
         float a = 27.12f;
         long b = 987678965549L;
         double c = 2.786;
@@ -31,5 +31,17 @@ public class Main {
         System.out.println("Значение переменной e с типом short равно " + e);
         System.out.println("Значение переменной f с типом int равно " + f);
         System.out.println("Значение переменной g с типом byte равно " + g);
+        System.out.println("-------");
+        System.out.println("Задача №3");
+        byte studLp = 23;
+        byte studAs = 27;
+        byte studEa = 30;
+        System.out.println("Людмила Павловна - " + studLp + " ученика");
+        System.out.println("Анна Сергеевна - " + studAs + " учеников");
+        System.out.println("Екатерина Андреевна - " + studEa + " учеников");
+        short totalPaper = 480;
+        System.out.println("Закуплено на всех " + totalPaper + " листов бумаги");
+        int studPaper = totalPaper / (studLp + studAs + studEa);
+        System.out.println("На каждого ученика рассчитано " + studPaper + " листов бумаги");
     }
 }
