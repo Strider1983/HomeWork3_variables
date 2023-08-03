@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Типы Переменных");
+        System.out.println("-------");
         System.out.println("Задача№1");
         int apple = 102364;
         byte orange = 84;
@@ -14,5 +15,21 @@ public class Main {
         System.out.println("Значение переменной birch с типом long равно " + birch);
         System.out.println("Значение переменной weight с типом float равно " + weight);
         System.out.println("Значение переменной height с типом double равно " + height);
+        System.out.println("-------");
+        System.out.println("Задача№2");
+        float a = 27.12f;
+        long b = 987678965549L;
+        double c = 2.786;
+        short d = 569;
+        short e = -159;
+        int f = 27897;
+        byte g = 67;
+        System.out.println("Значение переменной a с типом float равно " + a);
+        System.out.println("Значение переменной b с типом long равно " + b);
+        System.out.println("Значение переменной c с типом double равно " + c);
+        System.out.println("Значение переменной d с типом short равно " + d);
+        System.out.println("Значение переменной e с типом short равно " + e);
+        System.out.println("Значение переменной f с типом int равно " + f);
+        System.out.println("Значение переменной g с типом byte равно " + g);
     }
 }
