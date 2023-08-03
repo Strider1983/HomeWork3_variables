@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Типы Переменных");
+
         System.out.println("-------");
         System.out.println("Задача №1");
         int apple = 102364;
@@ -15,6 +16,7 @@ public class Main {
         System.out.println("Значение переменной birch с типом long равно " + birch);
         System.out.println("Значение переменной weight с типом float равно " + weight);
         System.out.println("Значение переменной height с типом double равно " + height);
+
         System.out.println("-------");
         System.out.println("Задача №2");
         float a = 27.12f;
@@ -31,6 +33,7 @@ public class Main {
         System.out.println("Значение переменной e с типом short равно " + e);
         System.out.println("Значение переменной f с типом int равно " + f);
         System.out.println("Значение переменной g с типом byte равно " + g);
+
         System.out.println("-------");
         System.out.println("Задача №3");
         byte studLp = 23;
@@ -56,5 +59,38 @@ public class Main {
         System.out.println("За сутки машина произвела " + timeDay + " штук бутылок");
         System.out.println("За 3 дня машина произвела " + time3Day + " штук бутылок");
         System.out.println("За месяц машина произвела " + timeMonth + " штук бутылок");
+
+        System.out.println("-------");
+        System.out.println("Задача №5");
+        byte totalPots = 120;
+        System.out.println("Всего необходимо " + totalPots + " банок краски");
+        byte potWhite = 2;
+        byte potBrown = 4;
+        System.out.println("На каждый кабинет уйдет " + potWhite + " банки белой краски и " + potBrown + " банки коричневой краски");
+        int cabins = totalPots / (potWhite + potBrown);
+        int potsWhite = potWhite * cabins;
+        int potsBrown = potBrown * cabins;
+        System.out.println("В школе, где " + cabins + " классов, нужно " + potsWhite + " банок белой краски и " + potsBrown + " банок коричневой краски");
+
+        System.out.println("-------");
+        System.out.println("Задача №6");
+        byte bananas = 5;
+        int bananaWeight = bananas * 80;
+        short milk = 200;
+        int milkWeight = milk / 100 * 105;
+        byte icecream = 2;
+        int icecreamWeight = icecream * 100;
+        byte eggs = 4;
+        int eggWeight = eggs * 70;
+        int totalWeight = bananaWeight + milkWeight + icecreamWeight + eggWeight;
+        float totalWeightK = totalWeight / 1000F;
+        System.out.println("Рецепт спортзавтрака:");
+        System.out.println("Бананы - " + bananas + "шт., вес " + bananaWeight + " грамм");
+        System.out.println("Молоко - " + milk + "мл., вес " + milkWeight + " грамм");
+        System.out.println("Мороженое-пломбир - " + icecream + "брикета., вес " + icecreamWeight + " грамм");
+        System.out.println("Яйца сырые - " + eggs + "шт., вес " + eggWeight + " грамм");
+        System.out.println("Вес спортзавтрака - " + totalWeight + " грамм");
+        System.out.println("Вес спортзавтрака - " + totalWeightK + " килограмм");
+
     }
 }
