@@ -92,5 +92,20 @@ public class Main {
         System.out.println("Вес спортзавтрака - " + totalWeight + " грамм");
         System.out.println("Вес спортзавтрака - " + totalWeightK + " килограмм");
 
+        System.out.println("-------");
+        System.out.println("Задача №7");
+        byte weihgtLoss = 7;
+        short dayLoss1 = 250;
+        short dayLoss2 = 500;
+        int daysLoss1 = weihgtLoss * 1000 / dayLoss1;
+        int daysLoss2 = weihgtLoss * 1000 / dayLoss2;
+        int everDay = (daysLoss1 + daysLoss2) / 2;
+        System.out.println("Сортсмену нужно сбросить " + weihgtLoss + " килограмм, чтобы оставаться в своей весовой категории");
+        System.out.println("Если спортсмен будет терять каждый день по " + dayLoss1 + " грамм, то " + daysLoss1 + " дней уйдет на похудение");
+        System.out.println("Если спортсмен будет терять каждый день по " + dayLoss2 + " грамм, то " + daysLoss2 + " дней уйдет на похудение");
+        System.out.println("В среднем может потребоваться " + everDay + " день, чтобы добиться результата");
+
+
+
     }
 }
