@@ -123,6 +123,6 @@ public class Main {
         int yaerDif3 = newPay3 * 12 - currentPay3 * 12;
         System.out.println("Маша теперь получает " + newPay1 + " рублей в месяц. Годовой доход вырос на " + yaerDif1 + " рублей");
         System.out.println("Денис теперь получает " + newPay2 + " рублей в месяц. Годовой доход вырос на " + yaerDif2 + " рублей");
-        System.out.println("Кристина теперь получает " + newPay3 + " рублей в месяц. Годовой доход вырос на " + yaerDif1 + " рублей");
+        System.out.println("Кристина теперь получает " + newPay3 + " рубля в месяц. Годовой доход вырос на " + yaerDif1 + " рублей");
     }
 }
