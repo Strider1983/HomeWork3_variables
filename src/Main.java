@@ -51,8 +51,8 @@ public class Main {
         byte bottles = 16;
         byte time = 2;
         System.out.println("Производительность машины для изготовления бутылок - " + bottles + " бутылок за " + time + " минуты");
-        int time20 = bottles / time * 20;
-        int timeDay = bottles / time * 60 * 24;
+        short time20 = (short) (bottles / time * 20);
+        short timeDay = (short) (bottles / time * 60 * 24);
         int time3Day = bottles / time * 60 * 24 * 3;
         int timeMonth = bottles / time * 60 * 24 * 30;
         System.out.println("За 20 минут машина произвела " + time20 + " штук бутылок");
